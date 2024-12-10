@@ -38,7 +38,7 @@ A modern, full-featured e-commerce bookstore built with ASP.NET Core MVC and Ent
 - **Backend**
   - ASP.NET Core MVC (.NET 7.0)
   - Entity Framework Core
-  - PostgreSQL Database
+  - MySQL Database
   - Identity Framework
 
 - **Frontend**
@@ -67,7 +67,7 @@ A modern, full-featured e-commerce bookstore built with ASP.NET Core MVC and Ent
    ```json
    {
      "ConnectionStrings": {
-       "DefaultConnection": "Your_PostgreSQL_Connection_String"
+       "DefaultConnection": "Your_MySQL_Connection_String"
      }
    }
    ```
