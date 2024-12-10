@@ -31,5 +31,6 @@ jobs:
           git config --global user.email "tianhuilin45@gmail.com"
           git add .
           git commit -m "Deploy from GitHub Actions"
+          git branch -M main
           git remote add azure "https://${{ secrets.AZURE_DEPLOYMENT_USERNAME }}:${{ secrets.AZURE_DEPLOYMENT_PASSWORD }}@songyang-bookstore-byb8hyevgjdrf4fm.scm.ukwest-01.azurewebsites.net:443/songyang-bookstore.git"
-          git push azure main -f
+          git push -u azure main -f
